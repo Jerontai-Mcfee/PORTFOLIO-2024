@@ -1,0 +1,121 @@
+body{
+background-color: #081b29;
+color: black;
+}
+
+/* padding to space out page  */
+.home-body{
+  padding: 150px;
+  
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+
+}
+h5{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.services{
+  padding: 500px;
+  
+}
+
+/* waving hand emoji */
+.emoji{
+  font-size: 75px;
+  animation: hand 2.5s infinite 0 ;
+  transform-origin: 70% 70%;
+  }
+
+@keyframes hand {
+  0% {
+    transform: rotate(0deg);
+  }
+  10%{
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4.0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* waving hand emoji */
+
+
+
+
+/* services  */
+.service-container{
+  display: flex;
+  justify-content: space-between;
+
+  margin: 40px;
+  gap: 20px;
+
+}
+
+h1.service-text{
+  text-align: center;
+/* services */
+
+
+
+/* about */
+}
+.know-container{
+  text-align: center;
+
+}
+.about-container {
+  display: flex;
+  margin: 40px;
+  gap: 20px;
+}
+.box {
+  flex: 1;
+  
+  padding: 100px;
+  border-radius: 10px;
+  border: 10px solid #9f2b40;
+}
+
+.description-container box {
+  flex: 1;
+  padding: 20px;
+
+}
+
+.languages-container box{
+  flex: 1;
+  padding: 20px;
+  }
+
+/* about  */
+
+
+
+
+  
+ 
+ 
+  
