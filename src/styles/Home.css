@@ -6,20 +6,10 @@ color: black;
 /* padding to space out page  */
 .home-body{
   padding: 150px;
-  
+  color: white;
 }
 
-h1{
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Roboto', sans-serif;
 
-}
-h5{
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-}
 
 .services{
   padding: 500px;
