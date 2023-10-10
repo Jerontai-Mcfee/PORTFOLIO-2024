@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Home.css";
 import Navbar from '../Components/Navbar';
-
+import video1 from '../video/video1.mov';
 
 function Home() {
   return (
@@ -10,7 +10,11 @@ function Home() {
      
    <h1>Hi, <span className='emoji'>👋</span><br></br> My Name is Je'Rontai Mcfee</h1>
    <h5 classname=" ">I am a Full Stack Web Developer</h5>
-
+<div className="vid-bar" bg="dark" variant="dark" expand="lg">
+<div className="video-wrapper">
+<video src={video1} autoPlay loop muted className="background-video" />
+</div>
+</div>
    <div className='services'  id="services">
     
       <h1 className='service-text' >Services I provide</h1>
