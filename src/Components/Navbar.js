@@ -22,7 +22,6 @@ function Navbar() {
 
       <nav className="navbar">
         <a href="/" className="active">Home</a>
-        <a href="about">About</a>
         <a href="projects">Projects</a>
         <a href="contact">Contact Me</a>
       </nav>

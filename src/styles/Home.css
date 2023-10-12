@@ -1,20 +1,14 @@
 body{
-background-color: #081b29;
-color: black;
+background-color: #182f61;
+
 }
 
 /* padding to space out page  */
-.home-body{
-  padding: 150px;
-  color: white;
-}
 
 
 
-.services{
-  padding: 500px;
-  
-}
+
+
 
 /* waving hand emoji */
 .emoji{
@@ -55,38 +49,52 @@ color: black;
 
 
 /* services  */
-.service-container{
-  display: flex;
-  justify-content: space-between;
-
-  margin: 40px;
-  gap: 20px;
-
+.service-text{
+  text-align: center;
+  color:white
+}
+.services{
+  padding-top: 500px;
 }
 
-h1.service-text{
-  text-align: center;
+.service-container{
+  display: flex;
+  margin: 40px;
+  gap: 20px;
+  color:white;
+}
+
+
+
+
+
+
+
+
 /* services */
 
 
 
 /* about */
-}
+
+
+
 .know-container{
   text-align: center;
-
+  padding-top:300px;
+  color:white;
 }
 .about-container {
   display: flex;
   margin: 40px;
   gap: 20px;
+  
 }
 .box {
   flex: 1;
-  
   padding: 100px;
-  border-radius: 10px;
-  border: 10px solid #9f2b40;
+  border-radius: 100px;
+  background :white
 }
 
 .description-container box {
@@ -100,12 +108,36 @@ h1.service-text{
   padding: 20px;
   }
 
+  h1.intro1 {
+    text-align: center;
+    padding-top: 250px;
+    color:white;
+  }
+  h1.intro2 {
+    text-align: center;
+    color:white;
+  } 
+
 /* about  */
 
 
 
+/* Video-bar  */
 
-  
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.background-video {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+ padding-top:100px;
+}
  
+/* Video-bar  */
+
  
   

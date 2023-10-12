@@ -2,38 +2,42 @@ import React from 'react'
 import "../styles/Home.css";
 import Navbar from '../Components/Navbar';
 import video1 from '../video/video1.mov';
+import webdev from '../helpers/webdev.jpg';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
     <div className='home' >
     <body className='home-body'>
      
-   <h1>Hi, <span className='emoji'>👋</span><br></br> My Name is Je'Rontai Mcfee</h1>
-   <h5 classname=" ">I am a Full Stack Web Developer</h5>
-<div className="vid-bar" bg="dark" variant="dark" expand="lg">
+   <h1 className="intro1">Hi, <span className='emoji'>👋</span><br></br> My Name is Je'Rontai Mcfee  </h1>
+   <h1 className="intro2 ">I am a Full Stack Web Developer</h1>
+<div className="vid-bar" >
 <div className="video-wrapper">
 <video src={video1} autoPlay loop muted className="background-video" />
 </div>
 </div>
-   <div className='services'  id="services">
+
+<div className='services'>
     
       <h1 className='service-text' >Services I provide</h1>
 <div className='service-container'>
-      <div className='web-development-container box'>
-        <p>dgsrhry</p>
-      
-        </div>
+
+<figure className="image-buttons">
+     <button className="pbuttons" >Web Development
+     <img className="is-rounded"  src={webdev} style={{ width: "300px", height: "300px", borderRadius: "50%" }} />
+     </button>
+     </figure>
         
         <div className='web-design-container box '>
-        <p>dgsrhry</p>
+        <p>Web Design</p>
         
         </div>
         
         <div className='app-development-container box'>
-        <p>dgsrhry</p>
+        <p>App Development</p>
        </div>
         </div>
-
       
    </div>
 <div>
