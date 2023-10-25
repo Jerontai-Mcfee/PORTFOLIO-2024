@@ -7,7 +7,17 @@ background-color: #182f61;
 
 
 
-
+/* intro */
+h1.intro1 {
+  text-align: center;
+  padding-top: 250px;
+  color:white;
+}
+h1.intro2 {
+  text-align: center;
+  color:white;
+} 
+/* intro */
 
 
 /* waving hand emoji */
@@ -59,18 +69,12 @@ background-color: #182f61;
 
 .service-container{
   display: flex;
-  margin: 40px;
-  gap: 20px;
+  margin: 100px;
+  gap: 415px;
+  /*  Color of text*/
   color:white;
+  
 }
-
-
-
-
-
-
-
-
 /* services */
 
 
@@ -81,43 +85,23 @@ background-color: #182f61;
 
 .know-container{
   text-align: center;
-  padding-top:300px;
+  padding-top:150px;
   color:white;
 }
 .about-container {
   display: flex;
   margin: 40px;
-  gap: 20px;
-  
-}
-.box {
-  flex: 1;
-  padding: 100px;
-  border-radius: 100px;
-  background :white
-}
-
-.description-container box {
-  flex: 1;
-  padding: 20px;
-
-}
+  text-align: center;
+  color:white;
+  font-size: 20px;
+ }
 
 .languages-container box{
   flex: 1;
   padding: 20px;
   }
 
-  h1.intro1 {
-    text-align: center;
-    padding-top: 250px;
-    color:white;
-  }
-  h1.intro2 {
-    text-align: center;
-    color:white;
-  } 
-
+ 
 /* about  */
 
 
@@ -140,4 +124,21 @@ background-color: #182f61;
 /* Video-bar  */
 
  
-  
+/* service images and text*/
+.webdevtext{
+  text-align: center;
+}
+.webddestext{
+  text-align: center;
+}
+.appdevtext{
+  text-align: center;
+}
+/* service images and text */
+
+/* Languages */
+.languages{
+  text-align: center;
+  color:white;
+}
+/* Languages */
