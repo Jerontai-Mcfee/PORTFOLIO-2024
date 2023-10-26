@@ -5,6 +5,7 @@ import video1 from '../video/video1.mov';
 import webdev from '../helpers/webdev.jpg';
 import webdesign from '../helpers/webdesign.jpg';
 import appdev from '../helpers/appdev.png';
+import techLogo from "../Components/skillArr";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
@@ -49,28 +50,37 @@ function Home() {
     <div className="about-container">
       <div className="description-container">
         <p>
-         Dynamic and versatile full-stack web developer adept at solving complex problems, 
-         providing seamless equipment installations, and delivering exceptional mobile device repairs. 
-         Je’Rontai possesses a deep proficiency in an array of programming languages and cutting-edge technologies
-         Je’Rontai combines technical expertise with a passion for creating user-friendly solutions that leave a lasting impact.
+        I am a passionate full-stack web developer with a diverse set of skills tailored to bring digital experiences to life.
+         With expertise in both front-end and back-end development, I can seamlessly bridge the gap between design and functionality. 
         </p>
       </div>
       </div>
-
-
-      <div className="skills-section">
-        <h1 className="languages">Languages I Practice</h1>
-        <ul>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>PostgreSQL</li>
-
-        </ul>
+      <div id="skills-section">
+      <div className="sections-heading">
+        <h1 className ="skills-tab">My Skills</h1>
+        
       </div>
+      <div className="skill-list">
+        {techLogo.map((logo) => (
+          <div className="logos">
+            <div className="skill-logo">
+              <img
+                key={logo.id}
+                className="logo-img"
+                id={logo.techName}
+                src={logo.image}
+                alt={logo.techName}
+              />
+            </div>
+            <p>{logo.techName}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+      
     </div>
     
 </div>

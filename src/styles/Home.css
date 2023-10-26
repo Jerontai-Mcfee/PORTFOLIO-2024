@@ -137,8 +137,62 @@ h1.intro2 {
 /* service images and text */
 
 /* Languages */
-.languages{
-  text-align: center;
-  color:white;
+
+.skill-list {
+  display: flex;
+  margin: 1.5rem auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+.skills-tab{
+  color:white;
+  font-size: 50px;
+  padding-top:100px;
+}
+.logos {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill-logo {
+    /* background-color: var(--trans-grey); */
+    border: .25px solid var(--trans-grey);
+    box-shadow: 5px 5px 20px var(--trans-grey);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+width: 5rem;
+height: 5rem;
+}
+.logo-img {
+  width: 100px;
+}
+.logos p {
+    line-height: 3;
+    font-weight: 600;
+    font-size: ;
+    color:white;
+}
+@media screen and (min-width: 768px) {
+  .skill-list {
+    padding: 0 3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+#skills-section .sections-heading {
+  text-align: center;
+}
+#skills-section {
+  padding: 1rem 10rem;
+}
+}
+@media screen and (min-width: 1660px) {
+  #skills-section {
+    padding: 1rem 17rem;
+  }
+}
+
+
 /* Languages */
