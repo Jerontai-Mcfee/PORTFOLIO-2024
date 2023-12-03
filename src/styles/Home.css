@@ -21,17 +21,18 @@ h1.intro2 {
 
 
 /* waving hand emoji */
-.emoji{
+.emoji {
   font-size: 75px;
-  animation: hand 2.5s infinite 0 ;
+  display: inline-block; /* Ensure inline-block display for animation */
+  animation: hand 2.5s infinite;
   transform-origin: 70% 70%;
-  }
+}
 
 @keyframes hand {
   0% {
     transform: rotate(0deg);
   }
-  10%{
+  10% {
     transform: rotate(14deg);
   }
   20% {
@@ -54,6 +55,7 @@ h1.intro2 {
   }
 }
 /* waving hand emoji */
+
 
 
 
