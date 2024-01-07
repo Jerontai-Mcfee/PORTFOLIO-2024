@@ -16,7 +16,7 @@ function Footer() {
    
    </a>
       </div>
-      <p> &copy; 2023 jerontaimcfee.com </p> 
+      <p> &copy; 2024 jerontaimcfee.com </p> 
       <p>  Phone Number: 678-254-8000     Email: jerontai07@gmail.com </p>
       
     </div>

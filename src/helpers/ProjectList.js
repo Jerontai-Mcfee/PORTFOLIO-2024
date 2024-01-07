@@ -2,7 +2,7 @@ import YugiohQuiz from '../assets/Images/ProjectImages/Yugiohquiz.png';
 import FoodDrink from '../assets/Images/ProjectImages/FoodandDrinkGenerator.png';
 import WeatherDashboard from '../assets/Images/ProjectImages/WeatherDashboard.png';
 import PcBuilder from '../assets/Images/ProjectImages/PcBuilder.png';
-import techLogo from "../Components/skillArr";
+
 
 export const ProjectList = [
     {

@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Contacts from './pages/Contacts';
+import ContactPage from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
+
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
-          <Route path="/contacts" element={<Contacts />} />
-          
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </Router>
