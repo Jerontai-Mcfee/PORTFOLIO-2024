@@ -12,10 +12,10 @@ function ProjectDisplay() {
   const project = ProjectList[id];
 
   const logoStyle = {
-    width: "40px", // Adjust the width as needed
-    height: "40px", // Adjust the height as needed
-    borderRadius: "50%", // Make it circular
-    marginRight: "5px", // Add some space between logos
+    width: "40px", 
+    height: "40px", 
+    borderRadius: "50%", 
+    marginRight: "5px", 
   };
 
   return (

@@ -10,16 +10,16 @@ export const ProjectList = [
         image:FoodDrink,
         skills:"JavaScript, HTML, CSS, RESTful APIs",
         techlogo: ["JavaScript", "HTML", "CSS", "RESTful APIs"],
-        githubLink: "https://github.com/your-username/food-drink-generator",
-        siteLink: "https://www.fooddrinkgenerator.com",
+        githubLink: "https://github.com/Thedanbrown/IDCWDYW-Food-and-Beverage-Recipe-Generator?tab=readme-ov-file",
+        siteLink: "https://thedanbrown.github.io/IDCWDYW-Food-and-Beverage-Recipe-Generator/",
     },
     {
         name: "Yugioh Quiz",
         image:YugiohQuiz,
         skills:"JavaScript, HTML, CSS",
         techlogo: ["JavaScript", "HTML", "CSS", "RESTful APIs"],
-        githubLink: "https://github.com/your-username/food-drink-generator",
-        siteLink: "https://www.fooddrinkgenerator.com",
+        githubLink: "https://github.com/Jerontai-Mcfee/Yu-Gi-Oh-Quiz",
+        siteLink: "https://jerontai-mcfee.github.io/Yu-Gi-Oh-Quiz/",
 
     },
     {
@@ -27,8 +27,8 @@ export const ProjectList = [
         image:WeatherDashboard,
         skills:"JavaScript, HTML, CSS, RESTful APIs",
         techlogo: ["JavaScript", "HTML", "CSS", "RESTful APIs"],
-        githubLink: "https://github.com/your-username/food-drink-generator",
-        siteLink: "https://www.fooddrinkgenerator.com",
+        githubLink: "https://github.com/Jerontai-Mcfee/weather-Dashboard-",
+        siteLink: "https://jerontai-mcfee.github.io/weather-Dashboard-/",
 
     },
     {
@@ -36,8 +36,8 @@ export const ProjectList = [
         image:PcBuilder,
         skills:"JavaScript, HTML, CSS, RESTful APIs",
         techlogo: ["JavaScript", "HTML", "CSS", "RESTful APIs"],
-        githubLink: "https://github.com/your-username/food-drink-generator",
-        siteLink: "https://www.fooddrinkgenerator.com",
+        githubLink: "https://github.com/Jerontai-Mcfee/Pc-Builder-Website",
+        siteLink: "https://pc-builder-website.onrender.com/",
 
     },
   
