@@ -6,7 +6,7 @@ import webdev from '../helpers/webdev.jpg';
 import webdesign from '../helpers/webdesign.jpg';
 import appdev from '../helpers/appdev.png';
 import techLogo from "../Components/skillArr";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Home() {
   return (

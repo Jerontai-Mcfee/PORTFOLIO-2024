@@ -1,4 +1,4 @@
-import YugiohQuiz from '../assets/Images/ProjectImages/Yugiohquiz.png';
+import YugiohQuiz from '../assets/Images/ProjectImages/yugiquiz.png';
 import FoodDrink from '../assets/Images/ProjectImages/FoodandDrinkGenerator.png';
 import WeatherDashboard from '../assets/Images/ProjectImages/WeatherDashboard.png';
 import PcBuilder from '../assets/Images/ProjectImages/PcBuilder.png';
@@ -14,12 +14,12 @@ export const ProjectList = [
         siteLink: "https://thedanbrown.github.io/IDCWDYW-Food-and-Beverage-Recipe-Generator/",
     },
     {
-        name: "Yugioh Quiz",
+        name: "Yugioh Quiz App",
         image:YugiohQuiz,
-        skills:"JavaScript, HTML, CSS",
-        techlogo: ["JavaScript", "HTML", "CSS", "RESTful APIs"],
-        githubLink: "https://github.com/Jerontai-Mcfee/Yu-Gi-Oh-Quiz",
-        siteLink: "https://jerontai-mcfee.github.io/Yu-Gi-Oh-Quiz/",
+        skills:"JavaScript, HTML, CSS, React, NPM",
+        techlogo: ["JavaScript", "HTML", "CSS","React","NPM"],
+        githubLink: "https://github.com/Jerontai-Mcfee/quiz-site",
+        siteLink: "https://quiz-site-jcsd.onrender.com",
 
     },
     {
@@ -34,8 +34,8 @@ export const ProjectList = [
     {
         name: "Pc Builder Website (Old Egg)",
         image:PcBuilder,
-        skills:"JavaScript, HTML, CSS, RESTful APIs",
-        techlogo: ["JavaScript", "HTML", "CSS", "RESTful APIs"],
+        skills:"JavaScript, HTML, CSS, React, Bootstrap, Node.js, MySQL",
+        techlogo: ["JavaScript", "HTML", "CSS", "React","Bootstrap", "Node.js", "MySQL"],
         githubLink: "https://github.com/Jerontai-Mcfee/Pc-Builder-Website",
         siteLink: "https://pc-builder-website.onrender.com/",
 
